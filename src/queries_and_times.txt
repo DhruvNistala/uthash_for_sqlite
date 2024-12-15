@@ -1,0 +1,126 @@
+Testing join column: column1_int
+Test 1 with join depth 2, column column1_int:
+Query: SELECT *  FROM table1, table2 WHERE table1.column1_int = table2.column1_int
+Average execution time for join depth 2, column column1_int: 0 seconds.
+------------------------------------------
+
+Testing join column: column3_str
+Test 1 with join depth 2, column column3_str:
+Query: SELECT *  FROM table1, table2 WHERE table1.column3_str = table2.column3_str
+Average execution time for join depth 2, column column3_str: 0 seconds.
+------------------------------------------
+
+Testing join column: column4_float
+Test 1 with join depth 2, column column4_float:
+Query: SELECT *  FROM table1, table2 WHERE table1.column4_float = table2.column4_float
+Average execution time for join depth 2, column column4_float: 0 seconds.
+------------------------------------------
+
+Testing join column: column1_int
+Test 1 with join depth 3, column column1_int:
+Query: SELECT *  FROM table1, table2, table3 WHERE table1.column1_int = table2.column1_int AND table2.column1_int = table3.column1_int
+Average execution time for join depth 3, column column1_int: 0 seconds.
+------------------------------------------
+
+Testing join column: column3_str
+Test 1 with join depth 3, column column3_str:
+Query: SELECT *  FROM table1, table2, table3 WHERE table1.column3_str = table2.column3_str AND table2.column3_str = table3.column3_str
+Average execution time for join depth 3, column column3_str: 0 seconds.
+------------------------------------------
+
+Testing join column: column4_float
+Test 1 with join depth 3, column column4_float:
+Query: SELECT *  FROM table1, table2, table3 WHERE table1.column4_float = table2.column4_float AND table2.column4_float = table3.column4_float
+Average execution time for join depth 3, column column4_float: 0 seconds.
+------------------------------------------
+
+Testing join column: column1_int
+Test 1 with join depth 4, column column1_int:
+Query: SELECT *  FROM table1, table2, table3, table4 WHERE table1.column1_int = table2.column1_int AND table2.column1_int = table3.column1_int AND table3.column1_int = table4.column1_int
+Average execution time for join depth 4, column column1_int: 0 seconds.
+------------------------------------------
+
+Testing join column: column3_str
+Test 1 with join depth 4, column column3_str:
+Query: SELECT *  FROM table1, table2, table3, table4 WHERE table1.column3_str = table2.column3_str AND table2.column3_str = table3.column3_str AND table3.column3_str = table4.column3_str
+Average execution time for join depth 4, column column3_str: 0 seconds.
+------------------------------------------
+
+Testing join column: column4_float
+Test 1 with join depth 4, column column4_float:
+Query: SELECT *  FROM table1, table2, table3, table4 WHERE table1.column4_float = table2.column4_float AND table2.column4_float = table3.column4_float AND table3.column4_float = table4.column4_float
+Average execution time for join depth 4, column column4_float: 0 seconds.
+------------------------------------------
+
+Testing join column: column1_int
+Test 1 with join depth 5, column column1_int:
+Query: SELECT *  FROM table1, table2, table3, table4, table5 WHERE table1.column1_int = table2.column1_int AND table2.column1_int = table3.column1_int AND table3.column1_int = table4.column1_int AND table4.column1_int = table5.column1_int
+Average execution time for join depth 5, column column1_int: 0 seconds.
+------------------------------------------
+
+Testing join column: column3_str
+Test 1 with join depth 5, column column3_str:
+Query: SELECT *  FROM table1, table2, table3, table4, table5 WHERE table1.column3_str = table2.column3_str AND table2.column3_str = table3.column3_str AND table3.column3_str = table4.column3_str AND table4.column3_str = table5.column3_str
+Average execution time for join depth 5, column column3_str: 0 seconds.
+------------------------------------------
+
+Testing join column: column4_float
+Test 1 with join depth 5, column column4_float:
+Query: SELECT *  FROM table1, table2, table3, table4, table5 WHERE table1.column4_float = table2.column4_float AND table2.column4_float = table3.column4_float AND table3.column4_float = table4.column4_float AND table4.column4_float = table5.column4_float
+Average execution time for join depth 5, column column4_float: 0 seconds.
+------------------------------------------
+
+Testing join column: column1_int
+Test 1 with join depth 6, column column1_int:
+Query: SELECT *  FROM table1, table2, table3, table4, table5, table6 WHERE table1.column1_int = table2.column1_int AND table2.column1_int = table3.column1_int AND table3.column1_int = table4.column1_int AND table4.column1_int = table5.column1_int AND table5.column1_int = table6.column1_int
+Average execution time for join depth 6, column column1_int: 0 seconds.
+------------------------------------------
+
+Testing join column: column3_str
+Test 1 with join depth 6, column column3_str:
+Query: SELECT *  FROM table1, table2, table3, table4, table5, table6 WHERE table1.column3_str = table2.column3_str AND table2.column3_str = table3.column3_str AND table3.column3_str = table4.column3_str AND table4.column3_str = table5.column3_str AND table5.column3_str = table6.column3_str
+Average execution time for join depth 6, column column3_str: 0 seconds.
+------------------------------------------
+
+Testing join column: column4_float
+Test 1 with join depth 6, column column4_float:
+Query: SELECT *  FROM table1, table2, table3, table4, table5, table6 WHERE table1.column4_float = table2.column4_float AND table2.column4_float = table3.column4_float AND table3.column4_float = table4.column4_float AND table4.column4_float = table5.column4_float AND table5.column4_float = table6.column4_float
+Average execution time for join depth 6, column column4_float: 0 seconds.
+------------------------------------------
+
+Testing join column: column1_int
+Test 1 with join depth 7, column column1_int:
+Query: SELECT *  FROM table1, table2, table3, table4, table5, table6, table7 WHERE table1.column1_int = table2.column1_int AND table2.column1_int = table3.column1_int AND table3.column1_int = table4.column1_int AND table4.column1_int = table5.column1_int AND table5.column1_int = table6.column1_int AND table6.column1_int = table7.column1_int
+Average execution time for join depth 7, column column1_int: 0 seconds.
+------------------------------------------
+
+Testing join column: column3_str
+Test 1 with join depth 7, column column3_str:
+Query: SELECT *  FROM table1, table2, table3, table4, table5, table6, table7 WHERE table1.column3_str = table2.column3_str AND table2.column3_str = table3.column3_str AND table3.column3_str = table4.column3_str AND table4.column3_str = table5.column3_str AND table5.column3_str = table6.column3_str AND table6.column3_str = table7.column3_str
+Average execution time for join depth 7, column column3_str: 0 seconds.
+------------------------------------------
+
+Testing join column: column4_float
+Test 1 with join depth 7, column column4_float:
+Query: SELECT *  FROM table1, table2, table3, table4, table5, table6, table7 WHERE table1.column4_float = table2.column4_float AND table2.column4_float = table3.column4_float AND table3.column4_float = table4.column4_float AND table4.column4_float = table5.column4_float AND table5.column4_float = table6.column4_float AND table6.column4_float = table7.column4_float
+Average execution time for join depth 7, column column4_float: 0 seconds.
+------------------------------------------
+
+Testing join column: column1_int
+Test 1 with join depth 8, column column1_int:
+Query: SELECT *  FROM table1, table2, table3, table4, table5, table6, table7, table8 WHERE table1.column1_int = table2.column1_int AND table2.column1_int = table3.column1_int AND table3.column1_int = table4.column1_int AND table4.column1_int = table5.column1_int AND table5.column1_int = table6.column1_int AND table6.column1_int = table7.column1_int AND table7.column1_int = table8.column1_int
+Average execution time for join depth 8, column column1_int: 0 seconds.
+------------------------------------------
+
+Testing join column: column3_str
+Test 1 with join depth 8, column column3_str:
+Query: SELECT *  FROM table1, table2, table3, table4, table5, table6, table7, table8 WHERE table1.column3_str = table2.column3_str AND table2.column3_str = table3.column3_str AND table3.column3_str = table4.column3_str AND table4.column3_str = table5.column3_str AND table5.column3_str = table6.column3_str AND table6.column3_str = table7.column3_str AND table7.column3_str = table8.column3_str
+Average execution time for join depth 8, column column3_str: 0 seconds.
+------------------------------------------
+
+Testing join column: column4_float
+Test 1 with join depth 8, column column4_float:
+Query: SELECT *  FROM table1, table2, table3, table4, table5, table6, table7, table8 WHERE table1.column4_float = table2.column4_float AND table2.column4_float = table3.column4_float AND table3.column4_float = table4.column4_float AND table4.column4_float = table5.column4_float AND table5.column4_float = table6.column4_float AND table6.column4_float = table7.column4_float AND table7.column4_float = table8.column4_float
+Average execution time for join depth 8, column column4_float: 0 seconds.
+------------------------------------------
+
